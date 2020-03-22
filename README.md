@@ -26,9 +26,17 @@ git clone https://github.com/alvisisme/vue-component-button.git
 
 ## 使用
 
-```html
-<v-button>按钮预览</v-button>
+ES6 用法
+
+见 [App.vue](./src/App.vue)
+
+script 用户
+
+```bash
+yarn install && yarn build:lib
 ```
+
+然后见 **dist/demo.html**
 
 ## API
 

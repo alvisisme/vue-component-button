@@ -1,7 +1,5 @@
 <template>
-  <button
-    class='vue-button'
-    :name="name">
+  <button class="vue-button">
     <slot></slot>
   </button>
 </template>
@@ -10,10 +8,7 @@
 export default {
   name: 'VButton',
   props: {
-    name: {
-      type: String,
-      default: ''
-    }
+    msg: String
   }
 }
 </script>
@@ -21,8 +16,6 @@ export default {
 <style scoped>
 .vue-button {
   color: red;
-  width: 200px;
-  height: 100px;
-  font-size: 14px;
+  padding: 6px 24px;
 }
 </style>
