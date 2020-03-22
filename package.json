@@ -1,0 +1,47 @@
+{
+  "name": "vue-button",
+  "description": "It's a simple vue button component",
+  "version": "0.0.1",
+  "author": "Alvis Zhao <alvisisme@gmail.com>",
+  "main": "dist/vue-button.min.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "license": "MIT",
+  "homepage": "https://alvisisme.github.io/vue-component-button/demo/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alvisisme/vue-component-button.git"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "@babel/plugin-transform-runtime": "7.9.0",
+    "@babel/preset-env": "7.9.0",
+    "@babel/preset-stage-2": "7.8.3",
+    "babel-eslint": "10.1.0",
+    "babel-loader": "8.1.0",
+    "cross-env": "7.0.2",
+    "css-loader": "3.4.2",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-config-prettier": "6.10.1",
+    "eslint-friendly-formatter": "4.0.1",
+    "eslint-import-resolver-webpack": "0.12.1",
+    "eslint-loader": "3.0.3",
+    "eslint-plugin-html": "6.0.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-vue": "6.2.2",
+    "file-loader": "6.0.0",
+    "prettier": "2.0.1",
+    "vue-loader": "15.9.1",
+    "vue-template-compiler": "2.6.11",
+    "webpack": "4.42.0",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.9.2"
+  }
+}

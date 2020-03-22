@@ -1,0 +1,5 @@
+version: '2'
+services:
+  vue-component-button:
+    build: .
+    image: vue-component-button
