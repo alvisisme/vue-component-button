@@ -1,6 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
+const nodeExternals = require('webpack-node-externals')
 
 function resolve(dir) {
   return path.join(__dirname, '..', dir)
@@ -39,10 +40,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [
-          'vue-style-loader',
-          'css-loader'
-        ]
+        use: ['vue-style-loader', 'css-loader']
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
@@ -58,14 +56,17 @@ module.exports = {
       vue$: 'vue/dist/vue.esm.js'
     }
   },
-  externals: {
-    vue: {
-      root: 'Vue',
-      commonjs: 'vue',
-      commonjs2: 'vue',
-      amd: 'vue'
-    }
-  },
+  externals: [
+    {
+      vue: {
+        root: 'Vue',
+        commonjs: 'vue',
+        commonjs2: 'vue',
+        amd: 'vue'
+      }
+    },
+    nodeExternals()
+  ],
   devServer: {
     host: '0.0.0.0',
     port: 8080,
@@ -81,9 +82,7 @@ module.exports = {
     minimize: process.env.NODE_ENV === 'production'
   },
   devtool: 'source-map',
-  plugins: [
-    new VueLoaderPlugin()
-  ]
+  plugins: [new VueLoaderPlugin()]
 }
 
 if (process.env.NODE_ENV === 'production') {

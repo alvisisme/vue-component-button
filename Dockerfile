@@ -10,4 +10,4 @@ COPY babel.config.json /app/babel.config.json
 COPY package.json /app/package.json
 COPY webpack.config.js /app/webpack.config.js
 
-RUN yarn install && yarn build
+RUN yarn install && yarn test && yarn build
