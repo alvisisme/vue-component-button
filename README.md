@@ -30,7 +30,7 @@ ES6 用法
 
 见 [App.vue](./src/App.vue)
 
-script 用户
+script 用法
 
 ```bash
 yarn install && yarn build:lib
