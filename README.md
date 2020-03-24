@@ -1,6 +1,6 @@
 # vue-component-button
 
-[![Build Status](https://img.shields.io/travis/com/alvisisme/vue-component-button?style=flat-square)](https://travis-ci.com/alvisisme/vue-component-button)
+[![Build Status](https://img.shields.io/travis/com/alvisisme/vue-component-button?style=flat-square)](https://travis-ci.com/alvisisme/vue-component-button) ![npm](https://img.shields.io/npm/dw/@alvisisme/vue-button?style=flat-square)
 
 一个简单的Vue Button 组件
 
