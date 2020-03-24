@@ -1,7 +1,7 @@
 {
   "name": "@alvisisme/vue-button",
   "description": "It's a simple vue button component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Alvis Zhao <alvisisme@gmail.com>",
   "main": "bin/vue-button.umd.min.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "lint": "vue-cli-service lint"
   },
   "license": "MIT",
-  "homepage": "https://alvisisme.github.io/vue-component-button/demo/",
+  "homepage": "https://alvisisme.github.io/vue-component-button/",
   "repository": {
     "type": "git",
     "url": "git://github.com/alvisisme/vue-component-button.git"
@@ -36,5 +36,10 @@
   "dependencies": {
     "core-js": "3.6.4",
     "vue": "2.6.11"
-  }
+  },
+  "files": [
+    "/src/components",
+    "/tests",
+    "/bin/"
+  ]
 }
