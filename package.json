@@ -1,9 +1,9 @@
 {
-  "name": "vue-button",
+  "name": "@alvisisme/vue-button",
   "description": "It's a simple vue button component",
   "version": "0.0.1",
   "author": "Alvis Zhao <alvisisme@gmail.com>",
-  "main": "dist/vue-button.umd.min.js",
+  "main": "bin/vue-button.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
