@@ -1,6 +1,6 @@
 # vue-component-button
 
-[![Build Status](https://img.shields.io/travis/com/alvisisme/vue-component-button?style=flat-square)](https://travis-ci.com/alvisisme/vue-component-button) ![npm](https://img.shields.io/npm/dw/@alvisisme/vue-button?style=flat-square)
+[![Build Status](https://img.shields.io/travis/com/alvisisme/vue-component-button?style=flat-square)](https://travis-ci.com/alvisisme/vue-component-button) [![npm](https://img.shields.io/npm/dw/@alvisisme/vue-button?style=flat-square)](https://www.npmjs.com/package/@alvisisme/vue-button)
 
 一个简单的Vue Button 组件
 
@@ -18,10 +18,12 @@
 
 一个简单的button组件，用于测试编写一个 vue 组件工程需要的基本框架。
 
+[效果预览](https://alvisisme.github.io/vue-component-button/)
+
 ## 安装
 
 ```bash
-git clone https://github.com/alvisisme/vue-component-button.git
+npm i @alvisisme/vue-button
 ```
 
 ## 使用
@@ -32,11 +34,7 @@ ES6 用法
 
 script 用法
 
-```bash
-yarn install && yarn build:lib
-```
-
-然后见 **dist/demo.html**
+见 docs 目录下demo
 
 ## API
 
